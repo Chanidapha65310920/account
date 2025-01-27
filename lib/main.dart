@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const EdgeInsets.symmetric(vertical: 2, horizontal: 20),
                   child: ListTile(
                     title: Text(data.title),
-                    subtitle: Text('วันที่บันทึกข้อมูล'),
+                    subtitle: Text(data.dateRecording.toString()),
                     leading: CircleAvatar(
                       child: FittedBox(
                         child:
